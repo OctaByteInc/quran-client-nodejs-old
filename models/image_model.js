@@ -1,8 +1,8 @@
-class Image {
+class ImageModel {
   constructor(ayah_id, image) {
     this.ayahId = ayah_id;
     this.image = image;
   }
 }
 
-module.exports = Image;
+module.exports = ImageModel;

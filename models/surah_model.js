@@ -1,4 +1,4 @@
-class Surah {
+class SurahModel {
   constructor(
     id,
     number,
@@ -16,4 +16,4 @@ class Surah {
   }
 }
 
-module.exports = Surah;
+module.exports = SurahModel;

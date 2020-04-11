@@ -1,4 +1,4 @@
-class Ayah {
+class AyahModel {
   constructor(
     id,
     surah_id,
@@ -24,4 +24,4 @@ class Ayah {
   }
 }
 
-module.exports = Ayah;
+module.exports = AyahModel;

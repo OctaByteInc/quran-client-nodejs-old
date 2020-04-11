@@ -1,4 +1,4 @@
-class Audio {
+class AudioModel {
   constructor(id, ayah_id, edition_id, type, audio) {
     this.id = id;
     this.ayahId = ayah_id;
@@ -8,4 +8,4 @@ class Audio {
   }
 }
 
-module.exports = Audio;
+module.exports = AudioModel;

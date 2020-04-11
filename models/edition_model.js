@@ -1,4 +1,6 @@
-class Edition {
+class EditionModel {
+  static name = "edition";
+  
   constructor(id, language, translator, type, format, direction) {
     this.id = id;
     this.language = language;
@@ -9,4 +11,4 @@ class Edition {
   }
 }
 
-module.exports = Edition;
+module.exports = EditionModel;

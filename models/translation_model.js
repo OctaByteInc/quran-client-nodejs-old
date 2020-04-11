@@ -1,4 +1,4 @@
-class Translation {
+class TranslationModel {
   constructor(id, ayah_id, ayah_number, edition_id, text) {
     this.id = id;
     this.ayahId = ayah_id;
@@ -8,4 +8,4 @@ class Translation {
   }
 }
 
-module.exports = Translation;
+module.exports = TranslationModel;
